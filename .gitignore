@@ -16,6 +16,20 @@
 *.launch
 .settings/
 *.sublime-workspace
+tslint*
+tsconfig*
+protractor*
+package-lock*
+karma*
+firebase*
+database.*
+*/e2e/*
+*/src/typings*
+*/src/tsconfig*
+*/src/test*
+*/src/favicon*
+*/src/environments/*
+*/src/assets/*
 
 # IDE - VSCode
 .vscode/*
@@ -40,3 +54,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
