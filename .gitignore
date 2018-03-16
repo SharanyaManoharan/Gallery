@@ -23,13 +23,14 @@ package-lock*
 karma*
 firebase*
 database.*
-*/e2e/*
-*/src/typings*
-*/src/tsconfig*
-*/src/test*
-*/src/favicon*
-*/src/environments/*
-*/src/assets/*
+/e2e/*
+/src/typings*
+/src/tsconfig*
+/src/test*
+/src/favicon*
+/src/environments/*
+/src/assets/*
+
 
 # IDE - VSCode
 .vscode/*
