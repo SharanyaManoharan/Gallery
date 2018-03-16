@@ -1,14 +1,35 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
-  <title>Angularapp</title>
+  <title>Gallery</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Contrail+One|Cabin" rel="stylesheet">
 </head>
 <body>
-  <app-root></app-root>
+  <div class="main-content">
+    <app-root>Loading...</app-root>    
+  </div>
+  
+
+  
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD4ddU_omca6no-tAKkrZNSvSQ9OWeCqZE",
+    authDomain: "my-angularapp-3086f.firebaseapp.com",
+    databaseURL: "https://my-angularapp-3086f.firebaseio.com",
+    projectId: "my-angularapp-3086f",
+    storageBucket: "my-angularapp-3086f.appspot.com",
+    messagingSenderId: "349359002107"
+  };
+  firebase.initializeApp(config);
+</script>
 </body>
+  
 </html>
